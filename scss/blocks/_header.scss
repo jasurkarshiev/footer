@@ -75,54 +75,54 @@
 }
 
 
-@media only screen and (max-width: 1200px){
+  @media only screen and (max-width: 1200px){
     .container {
-        max-width: 960px;
+      max-width: 960px;
     }
-}
+  }
 
-@media only screen and (max-width: 992px){
+  @media only screen and (max-width: 992px){
     .container {
-        max-width: 720px;
+      max-width: 720px;
     }
-}
+  }
 
-@media only screen and (max-width: 768px){
+  @media only screen and (max-width: 768px){
     .site-header {
         position: relative;
 
         .container {
             max-width: 755px;
-        }
+          }
 
-        &__hamburger {
-            display: block;
-            background-image: url("../../images/gamburger-menu.svg");
-            background-repeat: no-repeat;
-            width: 17px;
-            height: 16px;
-            border: none;
-            background-color: white;
-        }
+          &__hamburger {
+              display: block;
+              background-image: url("../../images/gamburger-menu.svg");
+              background-repeat: no-repeat;
+              width: 17px;
+              height: 16px;
+              border: none;
+              background-color: white;
+          }
 
-        &__left {
+          &__left {
 
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            width: 100%;
-        }
+              display: flex;
+              align-items: center;
+              flex-direction: column;
+              width: 100%;
+          }
 
-        &__nav {
-            display: none;
-        }
+          &__nav {
+              display: none;
+          }
 
-        &__menu-img {
-            display: block;
-        }
+          &__menu-img {
+              display: block;
+          }
     }
 
-    .site-header--open .header__nav {
+    .site-header--open .site-header__nav {
         display:block;
         position: absolute;
         left: 25px;
@@ -172,18 +172,18 @@
     button {
         display: none;
     }
-}
+  }
 
-@media only screen and (max-width: 375px){
+  @media only screen and (max-width: 375px){
     .site-header {
         .container {
             max-width: 100%;
-        }
+          }
 
-        &__wrappr {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-        }
+          &__wrappr {
+              display: flex;
+              align-items: center;
+              flex-direction: column;
+          }
     }
-}
+  }
