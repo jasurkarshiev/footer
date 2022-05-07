@@ -1435,6 +1435,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 
 .opportunities__item::before {
@@ -1442,7 +1443,7 @@ img {
   width: 974px;
   height: 15px;
   position: absolute;
-  top: 200px;
+  top: 50px;
   left: calc(50% + -770px);
   display: block;
   background-color: #E5ECF4;
@@ -1733,5 +1734,65 @@ img {
     color: #939CAA;
     text-align: center;
   }
+}
+
+.scoot__container {
+  max-width: 1110px;
+  width: 100%;
+}
+
+.scoot__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.scoot__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.scoot__item + .scoot__item {
+  margin-top: 226px;
+}
+
+.scoot__box {
+  max-width: 445px;
+  width: 100%;
+  margin-right: 220px;
+}
+
+.scoot__left-box {
+  max-width: 445px;
+  width: 100%;
+  margin-left: 220px;
+}
+
+.scoot__heading {
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+  margin-bottom: 24px;
+}
+
+.scoot__desc {
+  margin: 0;
+  font-family: 'Lexend Deca';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+  margin-bottom: 40px;
+}
+
+.scoot__link {
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */
